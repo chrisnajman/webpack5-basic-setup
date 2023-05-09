@@ -1,0 +1,35 @@
+// Ensure footer always at bottom
+.page-wrapper {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: var(--flex);
+    flex-direction: column;
+    align-items: stretch;
+
+    header,
+    main,
+    footer {
+        flex-shrink: 0;
+    }
+    main {
+        flex-grow: 1;
+    }
+}
+
+// Other
+.page-header,
+.page-content,
+.page-footer {
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+.page-content {
+    display: var(--flex);
+    flex-direction: column;
+    gap: 2rem;
+
+    section * {
+        margin-bottom: 1rem;
+    }
+}

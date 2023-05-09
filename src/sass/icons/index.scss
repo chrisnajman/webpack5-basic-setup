@@ -1,0 +1,34 @@
+.icon {
+    width: 2.4rem;
+    aspect-ratio: 1;
+
+    &-user {
+        fill: var(--icon-user);
+    }
+    &-comment {
+        fill: var(--icon-comment);
+    }
+    &-group {
+        fill: var(--icon-group);
+    }
+
+    &-hand {
+        fill: var(--icon-hand);
+    }
+
+    &-key {
+        fill: var(--icon-key);
+    }
+
+    &-network {
+        fill: var(--icon-network);
+    }
+
+    &-piechart {
+        fill: var(--icon-piechart);
+    }
+
+    &-pound {
+        fill: var(--icon-pound);
+    }
+}

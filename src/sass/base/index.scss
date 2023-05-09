@@ -1,0 +1,24 @@
+body {
+    background-color: var(--light);
+    color: var(--dark);
+}
+.page-header,
+.page-footer {
+    background-color: var(--dark);
+    color: var(--lightest);
+}
+
+.page-footer a {
+    color: var(--lightest);
+}
+
+.skip-link {
+    background-color: var(--lightest);
+    color: currentColor;
+}
+
+// Test
+.test-image {
+    max-width: 500px;
+    margin: var(--horz-center);
+}
