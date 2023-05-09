@@ -72,9 +72,7 @@ to use this syntax you could either:
 - put all `.scss` in `style.scss` (avoiding importing altogether) or
 - use the deprecated `@import`. You will get warnings, but the site won't break.
 
-In Dart Sass, `/` for division is deprecated. Use `math.div()`, together with `@use sass:math` instead. See:
-
-- `sass/components/component-test.scss` for a usage example.
+In Dart Sass, `/` for division is deprecated. Use `math.div()`, together with `@use sass:math` instead.
 
 ## Installation
 
